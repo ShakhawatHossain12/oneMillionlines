@@ -76,6 +76,10 @@ footer{
 	padding-bottom: 30px;
 	position: relative;
 }
+.modal-content iframe{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
 @media(max-width: 1199px){
 	
 	.jumbotron h1{
