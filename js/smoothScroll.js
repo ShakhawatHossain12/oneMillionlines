@@ -37,3 +37,28 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
      });
 
 });
+// $(".fa-chevron-circle-up").click(function() {
+//   var hash= "#jumbotron";
+
+//   window.location.hash=hash;
+
+// });
+$("#back-to-top").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = "#jumbotron";
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top 
+     }, 500, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
