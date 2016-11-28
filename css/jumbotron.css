@@ -76,11 +76,19 @@ footer{
 	padding-bottom: 30px;
 	position: relative;
 }
+.modal-content{
+	position: relative;
+}
+.fa-times{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
 .modal-content iframe{
 	position: absolute;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	margin-left: 10px;
+	
 }
 @media(max-width: 1199px){
 	
