@@ -3,6 +3,9 @@ body {
   padding-top: 50px;
   
 }
+a:visited{
+	text-decoration: none;
+}
 .jumbotron{
 	text-align: center;
 	/*font-family: 'Arvo', serif;*/
