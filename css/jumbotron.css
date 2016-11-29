@@ -78,7 +78,7 @@ footer{
 }
 .modal-dialog{
 	position: absolute;
-    width: auto;
+    width: 600px;
     /* margin: 10px; */
     left: 50%;
     top: 50%;
