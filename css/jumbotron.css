@@ -76,6 +76,15 @@ footer{
 	padding-bottom: 30px;
 	position: relative;
 }
+.modal-dialog{
+	position: absolute;
+    width: auto;
+    /* margin: 10px; */
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -173px;
+}
 .modal-content{
 	position: relative;
 }
